@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>网易云</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">	
+</head>
+<body style="background-image: url(img/ouy.jpg);background-repeat:no-repeat;background-size:100% 100% ; background-attachment: fixed;" onclick ="getnow()">
+    <span id="nowspan"> </span>
+	<div><img class="logo" src="img/logo.jpg"></div>
+	<div class="wankuang">
+		<ul class="">
+			<li class="senond"><a class="a" href="#">发现音乐</a></li>
+			<li class="senond"><a class="a" href="#">我的音乐</a>
+                <ul>
+                	<li class="senond"><a class="a" href="#">本地音乐</a></li>
+                	<li class="senond a"><a class="a" href="#">喜欢</a></li>
+                </ul>
+			</li>
+			<li class="senond a"><a class="a" href="#">朋友</a>
+                 <ul>
+                 	<li class="senond "><a class="a" href="#">音乐人</a></li>
+                 	<li class="senond "><a class="a" href="#">共同爱好</a></li>
+                 	<li class="senond "><a class="a" href="#">发现朋友</a></li>
+                 </ul>
+			</li>
+            <li class="senond"><a class="a" href="#">K歌</a>
+                <ul>
+                    <li class="senond"><a class="a" href="#">我的唱吧</a></li>
+                    <li class="senond a"><a class="a" href="#">喜欢</a></li>
+                </ul>
+            </li>
+            <li class="senond"><a class="a" href="#">排行榜</a>
+                <ul>
+                    <li class="senond"><a class="a" href="#">华语音乐</a></li>
+                    <li class="senond a"><a class="a" href="#">欧美音乐</a></li>
+                </ul>
+            </li>
+		</ul>
+		<form class="kongzhi">
+            <input type="text" placeholder="  输入关键词" class="search" />
+            <input type="button" class="submit" />                 
+        </form>						
+	</div>
+    <div class="wrap" id="wrap">
+        <ul id="pic">
+            <li><img src="img/fengmian2.jpg"  alt=""></li>
+            <li><img src="img/fengmian3.jpg" alt=""></li>
+            <li><img src="img/fengmian4.jpg" alt=""></li>
+            <li><img src="img/fengmian5.jpg" alt=""></li>
+            <li><img src="img/fengmian.jpg" alt=""></li>
+        </ul>
+        <ol id="list">
+            <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ol>
+    </div>
+    <div class="dakuang">
+        <p class="biaoti"> <a href="#" id="genduo">更多</a>精品歌单</p>
+        <div class="waikuang">
+            <div class="bankuai">
+                <img class="photo" src="img/ff.jpg">
+    	    </div>
+            <div class="jieshi">
+                <p>华语私人定制
+                    <span class="else">华语</span>
+        	    </p>
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+                <img class="photo" src="img/nn.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>宝藏集
+        	       <span class="else">华语</span>
+        	    </p>   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/oo.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>最怕是温柔
+        	       <span class="else">华语</span>
+        	    </p>	   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/gg.jpg">
+    	    </div>  
+            <div class="jieshi">
+        	    <p>闲暇时光
+        	       <span class="else">华语</span>
+        	    </p> 	   
+            </div>
+        </div>
+    </div>
+    <div class="dakuangs">
+        <p class="biaoti"><a href="#" id="genduo">更多</a>流行音乐</p>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/cc.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>时之歌/万籁音
+        	       <span class="else">华语</span>
+        	    </p>   
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+    		   <img class="photo" src="img/dd.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>诗人篇
+        	       <span class="else">欧美</span>
+        	    </p>   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/ee.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>美国乡村音乐
+        	       <span class="else">欧美</span>
+        	    </p> 
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/hh.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>夏日电影
+        	       <span class="else">原声</span>
+        	    </p>
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/rr.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>国风民谣
+        	       <span class="else">民谣</span>
+        	    </p>  
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/xx.jpg">
+    	    </div>     
+            <div class="jieshi">
+        	    <p>空灵纯音
+        	       <span class="else">纯音乐</span>
+        	    </p>        	   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/yy.jpg">
+    	    </div>           
+            <div class="jieshi">
+        	    <p>青春记忆
+        	       <span class="else">华语</span>
+        	    </p>        	  
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/qq.jpg">
+    	    </div>            
+            <div class="jieshi">
+        	    <p>深度睡眠
+        	       <span class="else">纯音乐</span>
+        	    </p>        	  
+            </div>
+        </div>
+    </div>
+    <div class="dakuangt">
+        <p class="biaoti"> <a href="#" id="genduo">更多</a>电子</p>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/wer.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>电音派对
+        	       <span class="else">电音</span>
+        	    </p>        	   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/mi.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>Techno
+        	       <span class="else">电音</span>
+        	    </p>        	  
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/vb.jpg">
+    	    </div>
+            <div class="jieshi">
+        	    <p>橘子海
+        	       <span class="else">电音</span>
+        	    </p>        	   
+            </div>
+        </div>
+        <div class="waikuang">
+    	    <div class="bankuai">
+    		   <img class="photo" src="img/rt.jpg">
+    	    </div>            
+            <div class="jieshi">
+        	    <p>动漫原声
+        	       <span class="else">电音</span>
+        	    </p>        	   
+            </div>
+        </div>
+    </div>
+    <div class="dakuangf">
+         <p class="biaoti"> <a href="#" id="genduo">更多</a>民谣</p>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/sads.jpg">
+            </div>
+            <div class="jieshi">
+                <p>民谣歌单
+                   <span class="else">民谣</span>
+                </p>               
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/tunh.jpg">
+            </div>
+            <div class="jieshi">
+                <p>把人生揉碎
+                   <span class="else">民谣</span>
+                </p>              
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/ty.jpg">
+            </div>
+            <div class="jieshi">
+                <p>一介平民
+                   <span class="else">民谣</span>
+                </p>               
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/tyy.jpg">
+            </div>            
+            <div class="jieshi">
+                <p>不知南方
+                   <span class="else">民谣</span>
+                </p>               
+            </div>
+        </div>
+    </div>
+    <div class="dakuangm">
+        <p class="biaoti"> <a href="#" id="genduo">更多</a>轻音乐</p>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/wedcr.jpg">
+            </div>
+            <div class="jieshi">
+                <p>熟悉
+                   <span class="else">轻音乐</span>
+                </p>               
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/ouirnf.jpg">
+            </div>
+            <div class="jieshi">
+                <p>小提琴
+                   <span class="else">轻音乐</span>
+                </p>              
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/dijse.jpg">
+            </div>
+            <div class="jieshi">
+                <p>学习歌单
+                   <span class="else">轻音乐</span>
+                </p>               
+            </div>
+        </div>
+        <div class="waikuang">
+            <div class="bankuai">
+               <img class="photo" src="img/mfu.jpg">
+            </div>            
+            <div class="jieshi">
+                <p>中国风
+                   <span class="else">轻音乐</span>
+                </p>               
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="denglu">
+            <ul >
+                <li><a class="yanse" href="#">登陆/注册</a></li>
+                <li class="phone"><a class="yanse" href="#">客户端</a></li>
+                <li class="weixin"><a class="yanse" href="#">微信</a></li>
+            </ul>
+        </div>
+        <div class="bottomf">
+			<ul class="clear">
+				<li class="libox">关于网易</li>
+				<li><a class="kuo" href="#">关于音乐</a></li>
+				<li><a class="kuo" href="#">管理机构</a></li>
+				<li><a class="kuo" href="#">版权所属</a></li>
+				<li><a class="kuo" href="#">意见反馈</a></li>
+				<li><a class="kuo" href="#">帮助</a></li>
+			</ul>
+		</div>
+		<div class="bottoms">
+			<ul class="clear">
+				<li class="libox">新手指南</li>
+				<li><a class="kuo" href="#">如何注册</a></li>
+				<li><a class="kuo" href="#">如何登录</a></li>
+				<li><a class="kuo" href="#">如何搜索</a></li>
+				<li><a class="kuo" href="#">邮箱</a></li>
+				<li><a class="kuo" href="#">电话</a></li>
+			</ul>
+		</div>
+		<div class="bottomt">
+			<ul class="clear">
+				<li class="libox">合作伙伴</li>
+				<li><a class="kuo" href="#">合作机构</a></li>
+				<li><a class="kuo" href="#">合作企业</a></li>
+			</ul>
+		</div>
+    </div> 
+    <button id="myBtn" onclick="topFunction()">有内鬼！终止下滑</button>
+    <script type="text/javascript"> 
+        function getnow(){
+            var now=new Date(); 
+            var year=now.getFullYear(); 
+            var month=now.getMonth()+1;
+            if(month<10){
+               month="0"+month;
+            }  
+            var date=now.getDate();
+            if(date<10){
+               date="0"+date;
+            }
+            var hour=now.getHours();
+            if(hour<10){
+               hour="0"+hour;
+            }
+            var minute=now.getMinutes();
+            if(minute<10){
+               minute="0"+minute;
+            } 
+            var second=now.getSeconds();
+            if(second<10){
+               second="0"+second;
+            }
+            var nowstr=year+"年"+month+"月"+date+"日  "+hour+":"+minute+":"+second;
+            var nowspan=document.getElementById("nowspan");
+            nowspan.innerHTML=nowstr;
+            setTimeout("getnow()", 1000);
+        }  
+        window.onload = function() {
+            var wrap = document.getElementById('wrap');
+            pic = document.getElementById('pic');
+            list = document.getElementById('list').getElementsByTagName('li');
+            index = 0;
+            timer = null;
+            if (timer) {
+                clearInterval(timer);
+                timer = null;
+            }
+            timer = setInterval(autoPlay, 2000);
+            function autoPlay() {
+                index++;
+                if (index >= list.length) {
+                    index = 0;
+                }
+                changeImg(index);
+            }
+            function changeImg(curIndex) {
+                for (var j = 0; j < list.length; j++) {
+                    list[j].className = "";
+                }
+                list[curIndex].className = "on";
+                pic.style.marginTop = -300 * curIndex + "px";
+                index = curIndex;
+            }
+            wrap.onmouseover = function() {
+                clearInterval(timer);
+            }
+            wrap.onmouseout = function() {
+                timer = setInterval(autoPlay, 2000);
+            }
+            for (var i = 0; i < list.length; i++) {
+                list[i].id = i;
+                list[i].onmouseover = function() {
+                    clearInterval(timer);
+                    changeImg(this.id);
+                }
+            }
+        }
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {console.log("嘻嘻");
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            document.getElementById("myBtn").style.display = "block";
+        } 
+        else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }   
+</script>
+</body>
+</html>
